@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معرض أعمالي</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: #EEA002;
+        }
+        header {
+            background-color: #333;
+            color: #EEA002;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #EEA002;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: #EEA002;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>معرض أعمالي</h1>
+    <nav>
+        <a href="#about">عنّي</a>
+        <a href="#portfolio">أعمالي</a>
+        <a href="#contact">اتصل بي</a>
+    </nav>
+</header>
+
+<div class="container">
+    <section id="about">
+        <h2>عنّي</h2>
+        <p>مرحباً! أنا مصمم جرافيك متخصص في تصميم الشعارات، والبنرات، وتصميم المواقع. هنا يمكنك مشاهدة بعض من أعمالي.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>أعمالي</h2>
+        <div class="gallery">
+            <img src="work1.jpg" alt="عمل 1">
+            <img src="work2.jpg" alt="عمل 2">
+            <img src="work3.jpg" alt="عمل 3">
+            <img src="work4.jpg" alt="عمل 4">
+            <img src="work5.jpg" alt="عمل 5">
+            <img src="work6.jpg" alt="عمل 6">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>اتصل بي</h2>
+        <p>
+            تواصل معي عبر 
+            <a href="https://t.me/Q_lm4" target="_blank">تلقرام (@Q_lm4)</a>
+            أو من خلال حسابنا على 
+            <a href="https://instagram.com/mtgr.m7mad" target="_blank">أنستقرام (@mtgr.m7mad)</a>
+        </p>
+    </section>
+</div>
+
+<footer>
+    <p>نشكر زيارتكم</p>
+</footer>
+
+</body>
+</html>
